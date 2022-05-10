@@ -41,7 +41,7 @@ CREATE TABLE `user` (
 --
 
 INSERT INTO `user` (`user_id`, `email`, `first_name`, `last_name`, `password`) VALUES
-(1, 'belgort@clark.edu', 'Bruce', 'Elgort', 'secret');
+(1, "belgort@clark.edu", "Bruce", "Elgort", "secret");
 
 --
 -- Indexes for dumped tables

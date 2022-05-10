@@ -1,13 +1,13 @@
 <?php
 // db_connect.inc.php
 // PDO Code Start
-$host = 'localhost';
-$user = 'root';
-$password = '';
-$dbname = 'ctec';
+$host = "localhost";
+$user = "root";
+$password = "";
+$dbname = "ctec";
 
 // DSN - Data Source Name
-$dsn = 'mysql:host=' . $host . ';dbname=' . $dbname;
+$dsn = "mysql:host=" . $host . ";dbname=" . $dbname;
 
 // Create a PDO Instance
 $db = new PDO($dsn, $user, $password);
