@@ -2,7 +2,7 @@
 
 #login, #logout {
     /* set initial display to none */
-    display: none;
+    /* display: none; */
 }
 
 #showPassword {
